@@ -1,0 +1,267 @@
+*************************************************************************
+*****        G A M M A   S P E C T R U M    A N A L Y S I S         *****
+*************************************************************************
+
+
+Filename: C:\SynologyDrive\Detectores\Gamma1\Espectros\TFGs\G1_Zumo_Lim
+
+Report Generated On             : 16/04/2025 15:16:06   
+
+Sample Title                    : zumo limon uib                         
+Sample Description              : con base                        
+Sample Identification           : zumo-limon-uib  
+Sample Type                     :                 
+Sample Geometry                 : S               
+
+Peak Locate Threshold           :  3.00
+Peak Locate Range (in channels) :    50 -  4096
+Peak Area Range (in channels)   :    50 -  4096
+Identification Energy Tolerance :    1.000 keV
+
+Sample Size                     :  9.1080E-01 kg      
+
+Sample Taken On                 : 21/03/2025 11:00:00   
+Acquisition Started             : 21/03/2025 11:45:35   
+
+Live Time                       :    86400.0 seconds
+Real Time                       :    86409.2 seconds
+
+Dead Time                       :   0.01 %
+
+
+              Energy Calibration Used Done On       : 10/04/2025
+              Efficiency Calibration Used Done On   : 26/07/2018
+              Efficiency ID                         : cal S-NPL18            
+
+Peak with NID Report             16/04/2025 15:16:06               Page  2
+
+
+**************************************************************************
+*****           P E A K    W I T H   N I D    R E P O R T            *****
+**************************************************************************
+
+
+     Detector Name:  DET01                           
+     Sample Title:   zumo limon uib                                    
+     Peak Analysis Performed on:  16/04/2025 15:16:05   
+     Peak Analysis From Channel:     50
+     Peak Analysis To Channel:     4096
+     Tentative NID Library:   C:\GENIE2K\CAMFILES\GAMMA1\CAM\Revira_mod
+     Peak Match Tolerance :    1.000 keV
+
+   Peak  ROI  ROI    Peak    Energy   Net Peak Net Area  Continuum  Tentative
+    No. Start End  Centroid   (keV)     Area    Uncert.    Counts    Nuclide 
+
+    1    68-   75    71.94    46.68  1.340E+02  113.74   1.550E+03   Pb-210   
+    2   100-  109   106.31    63.24  1.036E+03  149.45   2.021E+03   .....    
+    3   130-  137   134.83    76.98  1.630E+02  125.27   1.880E+03   PB-214   
+                                                                     PB-212   
+    4   164-  172   166.99    92.48  1.241E+03  151.37   2.112E+03   .....    
+    5   206-  212   208.54   112.51 -8.200E+01  112.43   1.729E+03   .....    
+    6   357-  368   360.00   185.49  4.810E+02  143.78   1.875E+03   U-235    
+                                                                     RA-226   
+    7   463-  475   470.14   238.57  3.950E+01  126.19   1.502E+03   PB-212   
+    8  1028- 1048  1035.39   510.96  4.929E+02  106.29   6.431E+02   TL-208   
+    9  1236- 1247  1239.45   609.30  8.250E+01   55.45   2.745E+02   BI-214   
+   10  1728- 1738  1732.17   846.74  6.000E+01   42.51   1.650E+02   .....    
+   11  2424- 2431  2427.63  1181.89  2.500E+01   27.64   8.300E+01   .....    
+   12  3001- 3016  3006.75  1460.96  9.240E+02   68.41   8.200E+01   K-40     
+   13  3633- 3640  3636.61  1764.49  9.000E+00   16.12   2.800E+01   BI-214   
+
+M = First peak in a multiplet region
+m = Other peak in a multiplet region
+F = Fitted singlet
+
+Errors quoted at  2.000 sigma
+Background Subtract Report             16/04/2025 15:16:06         Page  3
+
+**************************************************************************
+*****        B A C K G R O U N D  S U B T R A C T  R E P O R T       *****
+**************************************************************************
+
+     Detector Name:  DET01                           
+     Sample Title:   zumo limon uib                                    
+     Peak Analysis Performed on:  16/04/2025 15:16:05   
+
+     Env. Background File:     C:\SynologyDrive\Detectores\Gamma1\Espe
+
+ Peak  Energy  Original Orig. Area  Ambient    Backgr.  Subtracted  Subtracted
+   No. (keV)     Area     Uncert.  Background  Uncert.     Area       Uncert.
+
+    1    46.68  1.340E+02  113.74   1.860E+02  1.260E+02 -5.200E+01  1.697E+02
+    2    63.24  1.036E+03  149.45   8.470E+02  1.455E+02  1.888E+02  2.086E+02
+    3    76.98  1.630E+02  125.27                         1.630E+02  1.253E+02
+    4    92.48  1.241E+03  151.37   1.234E+03  1.776E+02  7.875E+00  2.333E+02
+    5   112.51 -8.200E+01  112.43                        -8.200E+01  1.124E+02
+    6   185.49  4.810E+02  143.78   4.930E+02  1.834E+02 -1.200E+01  2.330E+02
+    7   238.57  3.950E+01  126.19   1.419E+02  1.066E+02 -1.024E+02  1.652E+02
+    8   510.96  4.929E+02  106.29   5.268E+02  1.040E+02 -3.388E+01  1.487E+02
+    9   609.30  8.250E+01   55.45   6.775E+01  5.904E+01  1.475E+01  8.100E+01
+   10   846.74  6.000E+01   42.51                         6.000E+01  4.251E+01
+   11  1181.89  2.500E+01   27.64                         2.500E+01  2.764E+01
+   12  1460.96  9.240E+02   68.41   6.788E+01  3.005E+01  8.561E+02  7.472E+01
+   13  1764.49  9.000E+00   16.12   3.300E+01  1.889E+01 -2.400E+01  2.484E+01
+
+
+M = First peak in a multiplet region
+m = Other peak in a multiplet region
+F = Fitted singlet
+
+Errors quoted at  2.000 sigma
+Peak Efficiency Report             16/04/2025 15:16:06             Page  4
+
+
+**************************************************************************
+*****         P E A K    E F F I C I E N C Y    R E P O R T          *****
+**************************************************************************
+
+     Detector Name:  DET01                           
+     Sample Title:   zumo limon uib                                    
+     Peak Analysis Performed on:  16/04/2025 15:16:05   
+
+
+ Peak  Energy   Net Peak  Net Area       Peak     Efficiency
+ No.   (keV)      Area   Uncertainty  Efficiency  Uncertainty
+
+    1    46.68  1.340E+02   113.74     1.022E-02    2.619E-03
+    2    63.24  1.036E+03   149.45     2.007E-02    8.121E-04
+    3    76.98  1.630E+02   125.27     2.378E-02    1.360E-03
+    4    92.48  1.241E+03   151.37     2.445E-02    1.046E-03
+    5   112.51 -8.200E+01   112.43     2.308E-02    1.081E-03
+    6   185.49  4.810E+02   143.78     1.749E-02    7.975E-04
+    7   238.57  3.950E+01   126.19     1.355E-02    4.558E-04
+    8   510.96  4.929E+02   106.29     6.326E-03    1.168E-04
+    9   609.30  8.250E+01    55.45     5.317E-03    9.044E-05
+   10   846.74  6.000E+01    42.51     3.852E-03    5.220E-05
+   11  1181.89  2.500E+01    27.64     2.786E-03    3.097E-05
+   12  1460.96  9.240E+02    68.41     2.272E-03    3.268E-05
+   13  1764.49  9.000E+00    16.12     1.896E-03    4.024E-05
+
+
+M = First peak in a multiplet region
+m = Other peak in a multiplet region
+F = Fitted singlet
+
+Errors quoted at  2.000 sigma
+Nuclide Identification Report        16/04/2025 15:16:06           Page  5
+
+
+*************************************************************************
+*****   N U C L I D E   I D E N T I F I C A T I O N   R E P O R T   *****
+*************************************************************************
+
+     Sample Title:         zumo limon uib                          
+     Nuclide Library Used: C:\GENIE2K\CAMFILES\GAMMA1\CAM\Revira_mo
+
+   ....................    IDENTIFIED NUCLIDES     ....................
+
+   Nuclide    Id       Energy   Yield     Activity     Activity
+   Name    Confidence  (keV)     (%)     (bq /kg  )   Uncertainty
+
+   K-40      0.996   1460.81*   10.67    4.4885E+01   4.0767E+00
+   Pb-210    0.997     46.54*    4.25   -1.5217E+00   4.9815E+00
+   PB-212    0.999     77.11*   17.50    4.9765E-01   3.8351E-01
+                      238.63*   44.60   -2.1529E-01   3.4751E-01
+   RA-226    0.921    186.21*    3.28   -2.6588E-01   5.1634E+00
+
+       * = Energy line found in the spectrum.
+       Energy Tolerance :    1.000 keV
+       Nuclide confidence index threshold =   0.90
+       Errors quoted at  2.000 sigma
+
+
+   **********   U N I D E N T I F I E D   P E A K S   **********
+
+               Peak Locate Performed on:  16/04/2025 15:16:05   
+               Peak Locate From Channel:     50
+               Peak Locate To Channel:     4096
+
+       Peak   Energy     Peak Size in        Peak CPS      Peak        Tol.
+        No.   (keV)    Counts per Second   % Uncertainty   Type      Nuclide
+
+         2    63.24       2.18461E-03         110.50                         
+         4    92.48       9.11458E-05        2962.93       Sum               
+         5   112.51      -9.49074E-04        -137.10                         
+         8   510.96      -3.92072E-04        -438.93       Tol.      TL-208  
+         9   609.30       1.70718E-04         549.14       Tol.      BI-214  
+        10   846.74       6.94444E-04          70.86                         
+        11  1181.89       2.89352E-04         110.56                         
+        13  1764.49      -2.77778E-04        -103.50       Tol.      BI-214  
+
+       M = First peak in a multiplet region
+       m = Other peak in a multiplet region
+       F = Fitted singlet
+
+       Errors quoted at  2.000 sigma
+Nuclide MDA Report                           16/04/2025 15:16:06        Page  6
+
+
+*******************************************************************************
+*****                 N U C L I D E   M D A   R E P O R T                 *****
+*******************************************************************************
+
+     Detector Name:        DET01                           
+     Sample Geometry:      S               
+     Sample Title:         zumo limon uib                          
+     Nuclide Library Used: C:\GENIE2K\CAMFILES\GAMMA1\CAM\Revira_mo
+
+
+          Nuclide    Energy     Yield     Line MDA    Nuclide MDA    Activity
+          Name       (keV)       (%)     (bq /kg  )   (bq /kg  )    (bq /kg  )
+
+          BE-7        477.59    10.42    2.47678E+00   2.477E+00    2.36463E+00
+    +     K-40       1460.81*   10.67    4.14860E+00   4.149E+00    4.48853E+01
+          CR-51       320.08     9.83    2.13428E+00   2.134E+00   -8.52904E-01
+          MN-54       834.83    99.97    3.08622E-01   3.086E-01    4.19551E-02
+          CO-58       810.76    99.40    3.20420E-01   3.204E-01    3.24602E-01
+          FE-59      1099.22    56.50    6.91299E-01   6.913E-01    1.61237E-02
+                     1291.56    43.20    8.89602E-01                2.43527E-01
+          CO-60      1173.22   100.00    4.00762E-01   3.624E-01   -1.18306E-01
+                     1332.49   100.00    3.62358E-01                2.04808E-01
+          ZN-65      1115.52    50.75    7.69146E-01   7.691E-01    3.37249E-01
+          NB-95       765.79    99.81    3.08402E-01   3.084E-01    1.21127E-02
+          ZR-95       724.18    43.70    6.78499E-01   5.470E-01   -2.44391E-01
+                      756.72    55.30    5.46972E-01                1.67342E-01
+          RU-103      497.08    89.00    2.89603E-01   2.896E-01   -2.77109E-04
+          RU-106      621.84     9.80    2.78718E+00   2.787E+00    7.15323E-01
+                     1050.47     1.73    2.16876E+01                1.28486E+01
+          I-131       364.48    81.20    2.63159E-01   2.632E-01   -4.16358E-02
+          CS-134      569.32    15.43    1.65259E+00   2.879E-01    8.45627E-01
+                      604.70    97.60    2.87918E-01               -1.03292E-01
+                      795.84    85.40    3.54528E-01                1.22734E-01
+          CS-137      661.65    85.12    3.34359E-01   3.344E-01    4.37660E-02
+          BA-140      537.32    25.00    1.00813E+00   1.008E+00   -1.18404E-01
+          LA-140      328.77    20.50    1.06934E+00   3.830E-01    4.64017E-01
+                      487.03    45.50    5.46952E-01               -3.33599E-01
+                      815.85    23.50    1.34077E+00               -5.10318E-01
+                     1596.49    95.49    3.82999E-01                4.84123E-02
+          CE-144      133.54    10.80    1.61921E+00   1.619E+00    5.32068E-01
+          TL-208      510.77    22.60    1.47087E+00   3.163E-01   -3.28731E-01
+                      583.19    84.50    3.16295E-01                2.18389E-01
+                      860.56    12.42    2.57175E+00                1.24141E+00
+      >              2614.53    99.16    0.00000E+00                0.00000E+00
+    +     Pb-210       46.54*    4.25    8.27805E+00   8.278E+00   -1.52171E+00
+    +     PB-212       77.11*   17.50    6.24188E-01   5.815E-01    4.97653E-01
+                      238.63*   44.60    5.81487E-01               -2.15293E-01
+          BI-214      609.31    46.30    6.09536E-01   6.095E-01    3.40020E-01
+                     1120.29    15.10    2.55257E+00                1.96457E+00
+                     1764.49    15.80    2.24985E+00                1.11361E+00
+          PB-214       77.11    10.70    1.40936E+00   5.751E-01    5.51986E-01
+                      295.21    19.20    1.07755E+00                4.38197E-01
+                      351.92    37.20    5.75125E-01                2.75765E-01
+Nuclide MDA Report                           16/04/2025 15:16:06        Page  7
+
+
+          Nuclide    Energy     Yield     Line MDA    Nuclide MDA    Activity
+          Name       (keV)       (%)     (bq /kg  )   (bq /kg  )    (bq /kg  )
+
+    +     RA-226      186.21*    3.28    8.55747E+00   8.557E+00   -2.65878E-01
+          U-235       143.76    10.50    1.67514E+00   3.745E-01    4.05244E-01
+                      185.71    54.00    3.74545E-01                6.03823E-01
+          AM-241       59.54    36.30    5.01627E-01   5.016E-01    2.40904E-02
+
+       + = Nuclide identified during the nuclide identification
+       * = Energy line found in the spectrum
+       > = Calculated MDA is zero due to zero counts in the region, or 
+           the region is outside the spectrum, or has not been calculated
+       @ = Half-life too short to be able to perform the decay correction
